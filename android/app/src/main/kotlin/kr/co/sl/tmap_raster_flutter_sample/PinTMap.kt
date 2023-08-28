@@ -83,6 +83,13 @@ class PinTMap : AppCompatActivity() {
             val now_alt = tpoint?.getLongitude()
             println("$now_lat")
             println("$now_alt")
+//
+//            // CSV 파일에 데이터 저장
+//            val fileName = "location.csv"
+//            val fileContent = "$now_alt,$now_lat\n" // 경도, 위도 순서로 데이터 저장
+//            val file = File(applicationContext.filesDir, fileName)
+//            file.appendText(fileContent)
+
         }
 
 

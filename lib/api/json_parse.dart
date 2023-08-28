@@ -56,7 +56,7 @@ class _JsonParseState extends State<JsonParse> {
                    builder: (context){
                      return AlertDialog(
                        title: Text(user.name),
-                       content: Colum(
+                       content: Column(
                          children: [
                            Text(user.phone),
                          ],
